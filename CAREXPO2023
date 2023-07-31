@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Project</title>
+  
+  <style>
+    
+    body, html {
+      margin: 0;
+      padding: 0;
+      background-image: url(https://images8.alphacoders.com/116/1168080.jpg); 
+      background-size: cover;
+      color: #f5eeee; 
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: rgba(245, 235, 235, 0.285);
+      border-radius: 300px; 
+      backdrop-filter: blur(8px); 
+    }
+    
+    .search-input {
+      padding: 30px;
+      border-radius: 300px;
+      border: none;
+      background-color: #101115f3;
+      color: #eae0e0;
+    }
+ 
+    .header-text {
+      font-size: 24px;
+      font-weight: bold;
+      color: #ffffff;
+      text-decoration: underline; 
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00e6, 0 0 30px #4013e681, 0 0 40px #ff00e6, 0 0 50px #ff00e6;
+      text-align: center;
+    }
+
+    main {
+      display: flex;
+      justify-content: left; 
+      align-items: left; 
+      flex-direction: column; 
+      padding: 30px; 
+    }
+
+    .car-info {
+      width: 600px; 
+      padding: 50px;
+      margin: 50px;
+      background-color: #3b45b347;
+      border-radius: 50px;
+      backdrop-filter: blur(8px);
+      color: #13f1e6; 
+    }
+
+    
+    .car-image {
+      width: 100%; 
+      height: 250px; 
+      object-fit: cover;
+      border-radius: 45px; 
+    }
+    
+    .table-container {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  width: 1000px; 
+  padding: 100px;
+  background-color: rgba(119, 49, 198, 0.357);
+  border-radius: 3000px;
+  color: #13f1e6;
+  clear: both; /
+ }
+    
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ffffff;
+  text-align: center;
+    }
+  </style>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <header>
+    <div class="menu-button"></div>
+    <div class="header-text"><u>Moto-Expo2023</u></div> 
+    <input type="text" class="search-input" placeholder="Search...">
+    <div class="search-button"></div>
+  </header>
+  <main>
+    <div class="car-info">
+      <h1><u>Lamborghini Huracan</u></h1>
+      <img class="car-image" src="https://thumbs.gfycat.com/AdmiredYellowAtlanticblackgoby-size_restricted.gif" alt="Lamborghini">
+
+      <p>Class	Sports car (S)
+        Body style	
+        2-door coupé
+        2-door convertible
+        Layout	
+        Longitudinal, mid-engine, four-wheel-drive (LP 610-4, LP 640-4)
+        Rear mid-engine, rear-wheel-drive (LP 580-2, LP 620-2, LP 610-2, Tecnica, STO)
+        Platform	Volkswagen Group Modular Sports System Platform[2].</p>
+    </div>
+    <div class="car-info">
+      <h1><u>Buggati Chiron</u></h1>
+      <img class="car-image" src="https://i.pinimg.com/originals/a0/07/8f/a0078f9ae8dcba99bb3c35689ade1ab2.gif" alt="Bugatti">
+      <p>Class	Sports car (S)
+        Body style	2-door coupé
+        Layout	Mid-engine, all-wheel-driveEngine	8.0 L (488 cu in) quad-turbocharged WR16
+        Power output	
+        1,103 kW (1,479 hp; 1,500 PS) (Chiron, Chiron Sport, Chiron Pur Sport, Chiron Noire)
+        1,177 kW (1,578 hp; 1,600 PS) (Chiron Super Sport 300+, Chiron Super Sport).</p>
+    </div>
+    <div class="car-info">
+      <h1><u>McLaren Seena</u></h1>
+      <img class="car-image" src="https://giffiles.alphacoders.com/997/99757.gif" alt="McLaren">
+      <p>	Sports Car (S)
+        Body style	2-door coupé
+        Layout	Rear mid-engine, rear-wheel-drive
+        Platform	MonoCage III carbon fiber monocoqueEngine	4.0 L M840TR twin-turbocharged V8
+        Power output	588 kW (799 PS; 789 hp)
+        800 N⋅m (590 lb⋅ft)
+        Transmission	7-speed dual-clutch/p>
+    </div>
+    <div class="car-info">
+      <h1><u>BMW i8</u></h1>
+      <img class="car-image" src="https://i.pinimg.com/originals/e4/85/74/e48574452abe151fd53a640f29249dee.gif" alt="BMW i8">
+      <p>Class	Sports car (S)
+        Body style	2-door coupé
+        2-door roadster
+        Layout	Transverse mid-engine, all-wheel-drive
+        Doors	Butterfly doorsEngine	B38K15T0 1.5L turbocharged I3 engine gasoline[4]
+        Electric motor	98 kW (131 hp)[4]
+        Power output	369 hp
+        Transmission	Aisin F21-360 FT EOP
+        Hybrid drivetrain	Plug-in hybrid
+        Battery	7.1 kWh lithium-ion battery[5]
+        11.6 kWh lithium-ion battery for 2018–2020 model years[6].</p>
+    </div>
+    <div class="car-info">
+      <h2><u>Mercedes-Benz AMG GT</u></h2>
+      <img class="car-image" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7fb7d035124627.56ea6815197a0.gif" alt="Mercedes-Benz AMG GT">
+      <p>Class	Grand tourer (S)
+        Body style	
+        2-door liftback/fastback coupé
+        2-door roadster (2015–2021)
+        Layout	Front mid-engine, rear-wheel-drive
+        Platform	Mercedes-Benz MSA (2023)Engine	4.0 L M178 (Mercedes-AMG) twin-turbocharged V8
+        6.2 L M159 DOHC V8 (AMG GT3)
+        Transmission	7-speed AMG SPEEDSHIFT DCT dual-clutch.</p>
+    </div>
+</main>
+<div class="table-container">
+    <table>
+      <tr>
+        <th>Car</th>
+        <th>Class</th>
+        <th>Body Style</th>
+        <th>Layout</th>
+      </tr>
+      <tr>
+        <td>Lamborghini Huracan</td>
+        <td>Sports car (S)</td>
+        <td>2-door coupé<br>2-door convertible</td>
+        <td>Longitudinal, mid-engine, four-wheel-drive (LP 610-4, LP 640-4)<br>Rear mid-engine, rear-wheel-drive (LP 580-2, LP 620-2, LP 610-2, Tecnica, STO)</td>
+      </tr>
+      <tr>
+        <td>Bugatti Chiron</td>
+        <td>Sports car (S)</td>
+        <td>2-door coupé</td>
+        <td>Mid-engine, all-wheel-drive</td>
+      </tr>
+      <tr>
+        <td>McLaren Seena</td>
+        <td>Sports car (S)</td>
+        <td>2-door coupé</td>
+        <td>Rear mid-engine, rear-wheel-drive</td>
+      </tr>
+      <tr>
+        <td>BMW i8</td>
+        <td>Sports car (S)</td>
+        <td>2-door coupé<br>2-door roadster</td>
+        <td>Transverse mid-engine, all-wheel-drive</td>
+      </tr>
+      <tr>
+        <td>Mercedes-Benz AMG GT</td>
+        <td>Grand tourer (S)</td>
+        <td>2-door liftback/fastback coupé<br>2-door roadster (2015–2021)</td>
+        <td>Front mid-engine, rear-wheel-drive</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
